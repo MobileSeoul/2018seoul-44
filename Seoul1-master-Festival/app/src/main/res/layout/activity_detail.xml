@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcfc">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_view_detail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/yellow" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/text_view_creator_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Creator Name"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/yellow" />
+    <TextView
+        android:id="@+id/text_view_info_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="간단설명: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_addres_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:text="주소: "
+        android:textSize="15sp" />
+      <TextView
+        android:id="@+id/text_view_phone_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호: "
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:id="@+id/text_view_time_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영업시간: "
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴판: "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:id="@+id/image_view_menu_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+        <ImageView
+            android:layout_gravity="bottom"
+            android:id="@+id/image_view_menu1_detail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+        <ImageView
+            android:layout_gravity="bottom"
+            android:id="@+id/image_view_menu2_detail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

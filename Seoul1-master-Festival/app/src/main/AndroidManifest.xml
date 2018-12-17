@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kccistc.seoul">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/it"
+        android:label="서울을 가다"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Place" />
+        <activity android:name=".Food" />
+        <activity android:name=".Festival" />
+        <activity android:name=".History"/>
+        <activity android:name=".DetailActivity"/>
+        <activity android:name=".DetailActivity_Festival"/>
+        <activity android:name=".Place_DetailActivity">
+        </activity>
+    </application>
+
+</manifest>

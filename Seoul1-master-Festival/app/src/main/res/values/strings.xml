@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Seoul</string>
+   <string name="tour_bus">\t티켓 한 장으로 편안하게 서울의 명소를 둘러볼 수 있는 서울시티투어버스.\n
+   유명 관광명소들을 테마별로 모아 순환 운행하며, 하루 동안 횟수에 상관 없이 이용 가능하다.</string>
+    <string name="tour_bus_service">\t4개 언어(한, 영, 일, 중) 음성안내시스템, LCD 모너터를 이용한 주요 관광지 정보 안내, 통역 가이드 배치 및 운행 코스에 대한 안내 리플렛 제공</string>
+
+    <string name="tour_bus_info">  &#160;※ 전통문화코스와 하이라이트 코스는 연중 무휴 \n
+                                    ※ 시티코스는 월요일 휴무, 월요일이 공휴일인 경우 정상운행 \n
+                                    ※ 소인 요금은 5~18세 이하 기준 \n
+                                    ※ 운행시간이 변경될 수 있으므로 미리 확인 필요 \n
+                                    ※ 자세한 사항은 www.visitseoul.net 를 참고해주세요
+
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
